@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ddc1786ac39dc3143dbd1e0ed4013175" label="Student Admission" max_length="40" name="x_1920777_campus_0_student_admission" type="collection">
+        <element label="DOB" mandatory="true" max_length="255" name="dob" type="glide_date"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="True" function_definition="True" label="Status" max_length="40" name="status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Unactive" sequence="1" value="Unactive"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="course" dependent_on_field="course" label="Stream" max_length="40" name="stream" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="BSC" inactive_on_update="false" label="Information Technology" sequence="10" value="Information Technology"/>
+                <element dependent_value="BSC" inactive_on_update="false" label="Biotechnology" sequence="8" value="Biotechnology"/>
+                <element dependent_value="BBA" inactive_on_update="false" label="Human Resource" sequence="5" value="Human Resource"/>
+                <element dependent_value="Btech" inactive_on_update="false" label="Mechanical" sequence="3" value="Mechanical"/>
+                <element dependent_value="Btech" inactive_on_update="false" label="AI" sequence="1" value="AI"/>
+                <element dependent_value="Btech" inactive_on_update="false" label="CSE" sequence="0" value="CSE"/>
+                <element dependent_value="BSC" inactive_on_update="false" label="Mathematics" sequence="7" value="Mathematics"/>
+                <element dependent_value="BSC" inactive_on_update="false" label="Computer Science" sequence="9" value="Computer Science"/>
+                <element dependent_value="Btech" inactive_on_update="false" label="Cloud Computing" sequence="2" value="Cloud Computing"/>
+                <element dependent_value="BBA" inactive_on_update="false" label="International Business" sequence="6" value="International Business"/>
+                <element dependent_value="BBA" inactive_on_update="false" label="Marketing" sequence="4" value="Marketing"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Course" mandatory="true" max_length="40" name="course" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Btech" sequence="0" value="Btech"/>
+                <element inactive_on_update="false" label="BSC" sequence="2" value="BSC"/>
+                <element inactive_on_update="false" label="BBA" sequence="1" value="BBA"/>
+            </choice>
+        </element>
+        <element label="Address" mandatory="true" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="--None--" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" sequence="1" value="Female"/>
+                <element inactive_on_update="false" label="Male" sequence="0" value="Male"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Pincode" mandatory="true" max_length="255" name="pincode" type="integer"/>
+        <element label="Phone no." mandatory="true" max_length="40" name="phone_no" type="string"/>
+        <element label="State" mandatory="true" max_length="40" name="state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="12th Percentage" max_length="255" name="u_12th_percentage" type="float"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Application Number" max_length="40" name="number" type="string"/>
+        <element label="City" mandatory="true" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="10th Percentage" mandatory="true" max_length="255" name="u_10th_percentage" type="float"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
