@@ -4,10 +4,14 @@
         <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
         <element label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
         <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="True" function_definition="True" label="Status" max_length="40" name="status" read_only="true" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Applied" function_definition="True" label="Status" max_length="40" name="status" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Unactive" sequence="1" value="Unactive"/>
-                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="Approved" sequence="4" value="Approved"/>
+                <element inactive_on_update="false" label="Applied" sequence="2" value="Applied"/>
+                <element inactive="true" inactive_on_update="true" label="Unactive" sequence="1" value="Unactive"/>
+                <element inactive="true" inactive_on_update="true" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="Rejected" sequence="5" value="Rejected"/>
+                <element inactive_on_update="false" label="Under Verification" sequence="3" value="Under Verification"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" dependent="course" dependent_on_field="course" label="Stream" max_length="40" name="stream" type="choice" use_dependent_field="true">
