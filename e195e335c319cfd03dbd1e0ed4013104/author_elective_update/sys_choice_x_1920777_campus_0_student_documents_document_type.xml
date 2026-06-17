@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="document_type" table="x_1920777_campus_0_student_documents" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>document_type</element>
+            <name>x_1920777_campus_0_student_documents</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:10:28</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>document_type</sys_name>
+            <sys_package display_value="CampusFlow 360" source="x_1920777_campus_0">e195e335c319cfd03dbd1e0ed4013104</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusFlow 360">e195e335c319cfd03dbd1e0ed4013104</sys_scope>
+            <sys_update_name>sys_choice_x_1920777_campus_0_student_documents_document_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:10:28</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10th Marksheet</label>
+            <language>en</language>
+            <name>x_1920777_campus_0_student_documents</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:10:28</sys_updated_on>
+            <value>10th_marksheet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12th Marksheet</label>
+            <language>en</language>
+            <name>x_1920777_campus_0_student_documents</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:10:28</sys_updated_on>
+            <value>12th_marksheet</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transfer Certificate</label>
+            <language>en</language>
+            <name>x_1920777_campus_0_student_documents</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:10:28</sys_updated_on>
+            <value>Transfer_certificate</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aadhar Card</label>
+            <language>en</language>
+            <name>x_1920777_campus_0_student_documents</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:10:28</sys_updated_on>
+            <value>Aadhar_card</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Passport Photograph</label>
+            <language>en</language>
+            <name>x_1920777_campus_0_student_documents</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:10:28</sys_updated_on>
+            <value>Passport_photograph</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>document_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Diploma Marksheet</label>
+            <language>en</language>
+            <name>x_1920777_campus_0_student_documents</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:10:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:10:28</sys_updated_on>
+            <value>Diploma_marksheet</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

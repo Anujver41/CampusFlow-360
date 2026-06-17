@@ -4,13 +4,13 @@
             <element>u_10th_percentage</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-08 19:20:38</sys_created_on>
-            <sys_id>8a93312ac39507143dbd1e0ed4013118</sys_id>
+            <sys_created_on>2026-06-16 10:34:33</sys_created_on>
+            <sys_id>bde7c909c3e14350236b1cedd40131d8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Academic Information" display_value="Academic Information" name="x_1920777_campus_0_student_admission" sys_domain="global" view="Default view">b4027d26c39507143dbd1e0ed40131d6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-08 19:20:38</sys_updated_on>
+            <sys_updated_on>2026-06-16 10:34:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,41 +18,55 @@
             <element>u_12th_percentage</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-08 19:20:38</sys_created_on>
-            <sys_id>0e93312ac39507143dbd1e0ed4013125</sys_id>
+            <sys_created_on>2026-06-16 10:34:33</sys_created_on>
+            <sys_id>3de7c909c3e14350236b1cedd40131d9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Academic Information" display_value="Academic Information" name="x_1920777_campus_0_student_admission" sys_domain="global" view="Default view">b4027d26c39507143dbd1e0ed40131d6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-08 19:20:38</sys_updated_on>
+            <sys_updated_on>2026-06-16 10:34:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>course</element>
+            <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-08 19:20:38</sys_created_on>
-            <sys_id>c693312ac39507143dbd1e0ed4013126</sys_id>
+            <sys_created_on>2026-06-16 10:34:33</sys_created_on>
+            <sys_id>b9e7c909c3e14350236b1cedd40131da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Academic Information" display_value="Academic Information" name="x_1920777_campus_0_student_admission" sys_domain="global" view="Default view">b4027d26c39507143dbd1e0ed40131d6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-08 19:20:38</sys_updated_on>
+            <sys_updated_on>2026-06-16 10:34:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>course</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 10:34:33</sys_created_on>
+            <sys_id>39e7c909c3e14350236b1cedd40131db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Academic Information" display_value="Academic Information" name="x_1920777_campus_0_student_admission" sys_domain="global" view="Default view">b4027d26c39507143dbd1e0ed40131d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 10:34:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>stream</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-08 19:20:38</sys_created_on>
-            <sys_id>8293312ac39507143dbd1e0ed4013127</sys_id>
+            <sys_created_on>2026-06-16 10:34:33</sys_created_on>
+            <sys_id>b5e7c909c3e14350236b1cedd40131dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Academic Information" display_value="Academic Information" name="x_1920777_campus_0_student_admission" sys_domain="global" view="Default view">b4027d26c39507143dbd1e0ed40131d6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-08 19:20:38</sys_updated_on>
+            <sys_updated_on>2026-06-16 10:34:33</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

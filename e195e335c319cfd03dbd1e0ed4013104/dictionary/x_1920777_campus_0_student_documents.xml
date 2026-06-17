@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="5de3f53cc369cf10236b1cedd4013191" label="Student Documents " max_length="40" name="x_1920777_campus_0_student_documents" type="collection">
+        <element choice="3" default="Pending" label="Verification Status" mandatory="true" max_length="255" name="verification_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Resubmission Requested" sequence="3" value="Resubmission_requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element choice="3" label="Document Type" mandatory="true" max_length="255" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Passport Photograph" sequence="4" value="Passport_photograph"/>
+                <element inactive_on_update="false" label="Aadhar Card" sequence="3" value="Aadhar_card"/>
+                <element inactive_on_update="false" label="12th Marksheet" sequence="1" value="12th_marksheet"/>
+                <element inactive_on_update="false" label="10th Marksheet" sequence="0" value="10th_marksheet"/>
+                <element inactive_on_update="false" label="Diploma Marksheet" sequence="5" value="Diploma_marksheet"/>
+                <element inactive_on_update="false" label="Transfer Certificate" sequence="2" value="Transfer_certificate"/>
+            </choice>
+        </element>
+        <element label="Verified By" max_length="32" name="verified_by" reference="sys_user" type="reference"/>
+        <element label="Verification Comments " max_length="500" name="verification_comments" type="string"/>
+        <element label="Application " mandatory="true" max_length="32" name="application" reference="x_1920777_campus_0_student_admission" type="reference"/>
+        <element label="Admission Head" max_length="32" name="admission_head" reference="sys_user" type="reference"/>
+        <element label="Verification Date" max_length="255" name="verification_date" type="glide_date_time"/>
+        <element choice="3" label="Approval Stage" max_length="255" name="approval_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Verification Officer Review" sequence="5" value="Verification Officer Review"/>
+                <element inactive_on_update="false" label="Document Upload" sequence="0" value="Document Upload"/>
+                <element inactive_on_update="false" label="Fee Payment" sequence="3" value="Fee Payment"/>
+                <element inactive="true" inactive_on_update="true" label="Verification Officer Review" sequence="1" value="Verification Review"/>
+                <element inactive_on_update="false" label="Admission Head Review" sequence="2" value="Admission Head Review"/>
+                <element inactive_on_update="false" label="Enrollment Completed" sequence="4" value="Enrollment Completed"/>
+            </choice>
+        </element>
+        <element label="Verification Officer" max_length="32" name="verification_officer" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="admission_head"/>
+        </index>
+        <index name="index2">
+            <element name="application"/>
+        </index>
+        <index name="index3">
+            <element name="verification_officer"/>
+        </index>
+        <index name="index4">
+            <element name="verified_by"/>
+        </index>
+    </element>
+</database>
