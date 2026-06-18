@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c5fe6769c32d07941f1571fdd4013179" sys_domain="global" table="x_1920777_campus_0_fee_record" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>0ddfe7e9c32d07941f1571fdd4013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>c5dfe7e9c32d07941f1571fdd4013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fee_status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>81dfe7e9c32d07941f1571fdd4013149</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>4ddfe7e9c32d07941f1571fdd4013149</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_fee</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>09dfe7e9c32d07941f1571fdd401314a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>paid_amount</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>c1dfe7e9c32d07941f1571fdd401314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>balance_amount</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>8ddfe7e9c32d07941f1571fdd401314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:05:11</sys_created_on>
+            <sys_id>49dfe7e9c32d07941f1571fdd401314c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1920777_campus_0_fee_record" sys_domain="global" view="Default view">c5fe6769c32d07941f1571fdd4013179</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:05:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1920777_campus_0_fee_record</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 12:01:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5fe6769c32d07941f1571fdd4013179</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1920777_campus_0_fee_record</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CampusFlow 360" source="x_1920777_campus_0">e195e335c319cfd03dbd1e0ed4013104</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusFlow 360">e195e335c319cfd03dbd1e0ed4013104</sys_scope>
+            <sys_update_name>sys_ui_section_c5fe6769c32d07941f1571fdd4013179</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 12:01:22</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="fe11b3adc32d07941f1571fdd40131d1" label="Payment History" max_length="40" name="x_1920777_campus_0_payment_history" type="collection">
+        <element choice="1" label="Payment Mode" max_length="255" name="payment_mode" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="UPI" sequence="0" value="upi"/>
+                <element inactive_on_update="false" label="Card" sequence="1" value="card"/>
+                <element inactive_on_update="false" label="Cash" sequence="3" value="cash"/>
+                <element inactive_on_update="false" label="Net Banking" sequence="2" value="net_banking"/>
+            </choice>
+        </element>
+        <element label="Remarks" max_length="255" name="remarks" type="string"/>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Payment Date" mandatory="true" max_length="255" name="payment_date" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Fee Record" max_length="32" name="fee_record" reference="x_1920777_campus_0_fee_record" type="reference"/>
+        <element label="Receipt Number" max_length="50" name="receipt_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Amount Paid" mandatory="true" max_length="20" name="amount_paid" type="currency"/>
+        <index name="index">
+            <element name="fee_record"/>
+        </index>
+    </element>
+</database>

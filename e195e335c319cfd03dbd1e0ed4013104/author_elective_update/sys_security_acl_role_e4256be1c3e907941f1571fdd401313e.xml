@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 11:18:28</sys_created_on>
+        <sys_id>e4256be1c3e907941f1571fdd401313e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1920777_campus_0_fee_record.x_1920777_campus_0.verification_officer</sys_name>
+        <sys_package display_value="CampusFlow 360" source="x_1920777_campus_0">e195e335c319cfd03dbd1e0ed4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusFlow 360">e195e335c319cfd03dbd1e0ed4013104</sys_scope>
+        <sys_security_acl display_value="x_1920777_campus_0_fee_record">ec252be1c3e907941f1571fdd40131e8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_e4256be1c3e907941f1571fdd401313e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 11:18:28</sys_updated_on>
+        <sys_user_role display_value="x_1920777_campus_0.verification_officer" name="x_1920777_campus_0.verification_officer">b61d0389c3e18350236b1cedd401318a</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CampusFlow 360">e195e335c319cfd03dbd1e0ed4013104</application>
+        <file_path/>
+        <instance_id>e29568311b5a7ddc39a54089bd4bcb4e</instance_id>
+        <instance_name>dev204060</instance_name>
+        <name>sys_security_acl_role_e4256be1c3e907941f1571fdd401313e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-18 11:18:28</sys_created_on><sys_id>e4256be1c3e907941f1571fdd401313e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1920777_campus_0_fee_record.x_1920777_campus_0.verification_officer</sys_name><sys_package display_value="CampusFlow 360" source="x_1920777_campus_0">e195e335c319cfd03dbd1e0ed4013104</sys_package><sys_policy/><sys_scope display_value="CampusFlow 360">e195e335c319cfd03dbd1e0ed4013104</sys_scope><sys_security_acl display_value="x_1920777_campus_0_fee_record">ec252be1c3e907941f1571fdd40131e8</sys_security_acl><sys_update_name>sys_security_acl_role_e4256be1c3e907941f1571fdd401313e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-18 11:18:28</sys_updated_on><sys_user_role display_value="x_1920777_campus_0.verification_officer" name="x_1920777_campus_0.verification_officer">b61d0389c3e18350236b1cedd401318a</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1004675413</payload_hash>
+        <record_name>x_1920777_campus_0_fee_record.x_1920777_campus_0.verification_officer</record_name>
+        <reverted_from/>
+        <source>b992672dc3a907941f1571fdd401314d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 11:18:28</sys_created_on>
+        <sys_id>b4256be1c3e907941f1571fdd4013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eda7431ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 11:18:28</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>74256be1b5e90794edab3139c1ad1984</update_guid>
+        <update_guid_history>74256be1b5e90794edab3139c1ad1984:1004675413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1920777_campus_0_fee_record.x_1920777_campus_0.verification_officer">d92ea7e5c32d07941f1571fdd4013165</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 11:57:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>610f8dcadf9143fe8f164945ce991bb9</sys_id>
+        <sys_metadata>e4256be1c3e907941f1571fdd401313e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1920777_campus_0_fee_record.x_1920777_campus_0.verification_officer</sys_name>
+        <sys_package display_value="CampusFlow 360" source="x_1920777_campus_0">e195e335c319cfd03dbd1e0ed4013104</sys_package>
+        <sys_parent display_value="">ec252be1c3e907941f1571fdd40131e8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CampusFlow 360">e195e335c319cfd03dbd1e0ed4013104</sys_scope>
+        <sys_scope_delete display_value="">3bbe40f7e90c47f1a17a82e61e056121</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_e4256be1c3e907941f1571fdd401313e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_e4256be1c3e907941f1571fdd401313e">b4256be1c3e907941f1571fdd4013185</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 11:57:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="98fe2769c32d07941f1571fdd4013165" label="Fee Record" max_length="40" name="x_1920777_campus_0_fee_record" type="collection">
+        <element label="Due Date" max_length="255" name="due_date" type="glide_date"/>
+        <element label="Student" max_length="32" name="student" reference="x_1920777_campus_0_student_admission" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Balance Amount" max_length="20" name="balance_amount" type="currency"/>
+        <element choice="1" label="Fee Status" mandatory="true" max_length="255" name="fee_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Paid" sequence="2" value="paid"/>
+                <element inactive_on_update="false" label="Partially Paid" sequence="1" value="partially_paid"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="pending"/>
+            </choice>
+        </element>
+        <element label="Total Fee" max_length="20" name="total_fee" type="currency"/>
+        <element label="Paid Amount" max_length="20" name="paid_amount" type="currency"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+    </element>
+</database>
