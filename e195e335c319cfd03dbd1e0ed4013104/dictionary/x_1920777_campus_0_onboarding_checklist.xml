@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9f598692c3ad03d02917bf12b4013101" label="Onboarding Checklist" max_length="40" name="x_1920777_campus_0_onboarding_checklist" type="collection">
+        <element label="University Email Created" max_length="255" name="university_email_created" type="boolean"/>
+        <element label="ID Card Requested" max_length="255" name="id_card_requested" type="boolean"/>
+        <element choice="3" label="Onboarding Status" max_length="40" name="onboarding_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element label="Enrollment Number" max_length="40" name="enrollment_number" type="string"/>
+        <element label="Transport Allocated" max_length="255" name="transport_allocated" type="boolean"/>
+        <element label="Library Access Activated" max_length="255" name="library_access_activated" type="boolean"/>
+        <element label="Overall Progress" max_length="40" name="overall_progress" type="integer"/>
+        <element label="Hostel Allocated" max_length="255" name="hostel_allocated" type="boolean"/>
+        <element label="Student Admission" max_length="32" name="student_admission" reference="x_1920777_campus_0_student_admission" type="reference"/>
+        <index name="index">
+            <element name="student_admission"/>
+        </index>
+    </element>
+</database>

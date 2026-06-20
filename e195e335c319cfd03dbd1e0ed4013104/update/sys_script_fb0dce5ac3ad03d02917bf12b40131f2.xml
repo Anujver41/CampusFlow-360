@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1920777_campus_0_onboarding_checklist</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calculate Onboarding Progress</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var total = 6;
+    var completed = 0;
+
+    if (current.university_email_created == true) completed++;
+    if (current.id_card_requested == true) completed++;
+    if (current.hostel_allocated == true) completed++;
+    if (current.transport_allocated == true) completed++;
+    if (current.library_access_activated == true) completed++;
+    if (current.enrollment_number != '') completed++;
+
+    var progress = Math.round((completed / total) * 100);
+    current.overall_progress = progress;
+
+    if (progress == 0) {
+        current.onboarding_status = 'not_started';
+    } else if (progress == 100) {
+        current.onboarding_status = 'completed';
+    } else {
+        current.onboarding_status = 'in_progress';
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-20 12:51:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb0dce5ac3ad03d02917bf12b40131f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Calculate Onboarding Progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CampusFlow 360" source="x_1920777_campus_0">e195e335c319cfd03dbd1e0ed4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusFlow 360">e195e335c319cfd03dbd1e0ed4013104</sys_scope>
+        <sys_update_name>sys_script_fb0dce5ac3ad03d02917bf12b40131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-20 12:51:36</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=fb0dce5ac3ad03d02917bf12b40131f2"/>
+</record_update>
